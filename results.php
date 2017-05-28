@@ -10,8 +10,6 @@ if (isset($_POST["price3"])) {$price3=$_POST["price3"];if($price3=="") {unset($p
 if (isset($_POST["price4"])) {$price4=$_POST["price4"];if($price4=="") {unset($price4);}}
 if (isset($_POST["price5"])) {$price5=$_POST["price5"];if($price5=="") {unset($price5);}}
 if (isset($_POST["select"])) {$select=$_POST["select"];if($select=="") {unset($select);}}
-echo "<center><h1>Счет</h1></center>";
-$total=$price1+$price2+$price3+$price4+$price5;
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -22,6 +20,9 @@ $total=$price1+$price2+$price3+$price4+$price5;
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 </head>
 <body>
+<?
+echo "<center><h1>Счет</h1></center>";	
+?>
 	<div class="main">
 		<div class="mainmenu">
 			<h2>Заказ</h2>	
@@ -45,7 +46,7 @@ $total=$price1+$price2+$price3+$price4+$price5;
 		</div>
 		<div class="sum">
 			<h2>Итого</h2>	
-			<h3><?=$total?></h3>
+			<h3><?=$price1+$price2+$price3+$price4+$price5?></h3>
 		</div>
 	</div>			
 </body>
