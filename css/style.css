@@ -1,0 +1,90 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix {
+    clear: both;	
+}
+.main {
+	width: 900px;
+	margin: 0px auto;
+	background-color: #ffffff;
+}
+.mainmenu {
+	width: 300px;
+	height: 250px;
+	float: left;
+	background-color: #3CB371;	
+}
+.mainprice {
+	width: 300px;
+	height: 250px;
+	float: left;
+	background-color: #5F9EA0;	
+}
+input[placeholder] {
+	font-size: 18px;	
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.mainmenu input {
+	margin: 10px;
+}
+.mainprice input {
+	margin: 10px;
+}
+.time {
+	position: relative;
+	top: 20px;
+	float: left;
+}
+.time select {
+	width: 250px;
+	height: 36px;
+	font-size: 20px;
+	background-color: #87CEEB;	
+}
+.btn {
+	position: relative;
+	top: 20px;
+	left: 200px;
+	float: left;
+	width: 138px;
+	height: 36px;
+	margin-bottom: 40px;
+	border: 1px solid #e5e5e5;	
+	border-radius: 5px;	
+	background-color: #DAA520;
+	font-family: "pt-sans";
+	font-size: 15px;
+	color:black;
+	text-transform: uppercase;	
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #F37979;
+}
+.btn:active {
+	background-color: #E5A8A8;
+}
+h2 {
+	color: red;
+}
+.time2 {	
+	width: 150px;
+	height: 100px;
+	background-color: #00CED1;
+	float:left;
+	text-align: center;
+}
+.sum {
+	width: 150px;
+	height: 100px;
+	background-color: #9ACD32;
+	float: left;
+	text-align: center;
+}
