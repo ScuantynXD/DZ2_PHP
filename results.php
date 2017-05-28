@@ -46,7 +46,7 @@ echo "<center><h1>Счет</h1></center>";
 		</div>
 		<div class="sum">
 			<h2>Итого</h2>	
-			<h3><?=$price1+$price2+$price3+$price4+$price5?></h3>
+			<h3><? echo $price1+$price2+$price3+$price4+$price5?></h3>
 		</div>
 	</div>			
 </body>
